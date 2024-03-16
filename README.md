@@ -32,10 +32,15 @@ flowchart TD
 3. linkes libraries
 
 ```mermaid
+graph TD
   A[Object file: Calculator.o] --> B{Linker}
   C[Object file: Fraction.o] --> B
   D[Object file: Math.o] --> B
-  
-
+  E[Other libraries] --> B
+  F[C++ Standard Library] --> B
+  B --> G[Executable file: calculator.exe]
 
 ```
+
+### building
+full process of converting source code to executable file. executable produced as a result is called a build
