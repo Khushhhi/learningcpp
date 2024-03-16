@@ -19,7 +19,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A[Source File: Calculator.cpp] --> |Compile| --> B[Object file: Calculator.o]
+  A[Source File: Calculator.cpp] --> |Compile| B[Object file: Calculator.o]
 
 
 ```
